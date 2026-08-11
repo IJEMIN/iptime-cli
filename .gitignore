@@ -1,0 +1,40 @@
+# macOS and editors
+.DS_Store
+.AppleDouble
+.idea/
+.vscode/
+*.swp
+
+# Build output
+/bin/
+/dist/
+/coverage.out
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+*.local
+config.local.*
+secrets.*
+private/
+.local-data/
+
+# Router-derived data (never commit these)
+router-backups/
+captures/
+dumps/
+diagnostics/
+support-bundles/
+testdata/private/
+*.config
+*.har
+*.pcap
+*.pcapng
+*.keychain
+*.keychain-db
+
+# Runtime output
+logs/
+tmp/
+*.log
